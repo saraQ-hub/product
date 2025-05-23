@@ -2,7 +2,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
-import productRoutes from './routes/product.js'; // Make sure the path is correct
+import productRoutes from './routes/product.js'; 
 
 const app = express();
 dotenv.config();
